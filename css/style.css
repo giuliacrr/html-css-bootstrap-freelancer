@@ -1,8 +1,41 @@
 :root {
+  --bs-emphasis-color-rgb: 255, 255, 255;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.flex {
+  display: flex;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+/*-------------------Header-------------------*/
+.navbar {
+  background-color: #2c3e50;
+}
+.hero-sec {
+  background-color: #1abc9c;
+}
+.avatar-pic {
+  width: 100%;
+  max-width: 250px;
+}
+.container-sm {
+}
+/* -------------------Main------------------- */
+
+/* -------------------Footer------------------- */
