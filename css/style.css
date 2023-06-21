@@ -19,8 +19,20 @@ button {
 }
 
 h1 {
-  color: white;
   font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.black-txt {
+  color: #363636;
+}
+.white-txt {
+  color: white;
+}
+
+img {
+  width: 100%;
 }
 
 /*-------------------Header-------------------*/
@@ -33,8 +45,6 @@ h1 {
 .avatar-pic {
   width: 100%;
   max-width: 250px;
-}
-.container-sm {
 }
 /* -------------------Main------------------- */
 
