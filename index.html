@@ -11,7 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Stylesheet-->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <title>Bootstrap</title>
 </head>
 
@@ -48,7 +47,7 @@
           <img class="avatar-pic" src="img/avatar.svg" alt="avatar">
           <h1 class="fw-semibold white-txt">START BOOTSTRAP</h1>
           <!--Star separator-->
-          <div class="flex star-bar">
+          <div class="d-flex star-bar">
             <div class="bar"></div>
             <div><i class="fa-solid fa-star white-txt"></i></div>
             <div class="bar"></div>
@@ -67,7 +66,7 @@
       <h2 class="fw-semibold">PORTFOLIO</h2>
       <div class="container">
         <!--Star separator-->
-        <div class="flex star-bar">
+        <div class="d-flex star-bar">
           <div class="bar black-bg"></div>
           <div><i class="fa-solid fa-star black-txt"></i></div>
           <div class="bar black-bg"></div>
@@ -88,7 +87,7 @@
       <h2 class="fw-semibold white-txt">ABOUT</h2>
       <div class="container-sm">
         <!--Star separator-->
-        <div class="flex star-bar">
+        <div class="d-flex star-bar">
           <div class="bar"></div>
           <div><i class="fa-solid fa-star white-txt"></i></div>
           <div class="bar"></div>
@@ -108,9 +107,74 @@
         <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
       </div>
     </section>
+    <!--CONTACT ME-->
+    <section class="text-center py-5">
+      <div class="container">
+        <h2 class="fw-semibold black-txt">CONTACT ME</h2>
+        <!--Star separator-->
+        <div class="d-flex star-bar">
+          <div class="bar black-bg"></div>
+          <div><i class="fa-solid fa-star black-txt"></i></div>
+          <div class="bar black-bg"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <!--Name-->
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control border-ow" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Name</label>
+            </div>
+            <!--Email-->
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control border-ow" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email Address</label>
+            </div>
+            <!--Phone Number-->
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control border-ow" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Phone Number</label>
+            </div>
+            <!--Message-->
+            <div class="form-floating">
+              <textarea class="form-control border-ow txt-area-ow" style="height:200px;"
+                placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Message</label>
+            </div>
+            <div class="text-start">
+              <button type="button" class="btn btn-success btn-color-ow">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <!--..........FOOTER..........-->
-  <footer></footer>
+  <!-- FOOTER -->
+  <footer class="footer-bg">
+    <div class="container py-5 text-center">
+      <div class="row d-flex flex-wrap gy-4 py-4">
+        <div class=" col-md-4 col-sm-12 fw-semibold white-txt">
+          <h4>LOCATION</h4>
+          <p>2215 John Daniel Drive Clark, MO 54243</p>
+        </div>
+        <div class=" col-md-4 col-sm-12 fw-semibold white-txt ">
+          <h4>AROUND THE WEB</h4>
+          <div class="d-flex justify-content-center">
+            <div class="social-icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="social-icon"><i class="fa-brands fa-google-plus-g"></i></div>
+            <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="social-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          </div>
+        </div>
+        <div class=" col-md-4 col-sm-12 fw-semibold white-txt">
+          <h4>ABOUT FREELANCER</h4>
+          <p>Freelance is a free to use, open source Bootstrap theme created by </p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center white-txt py-5">
+      <span>Copyright © Your Website 2019</span>
+    </div>
+  </footer>
 </body>
 
 </html>

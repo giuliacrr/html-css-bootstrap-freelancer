@@ -6,11 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.flex {
-  display: flex;
 }
 
 button {
@@ -21,12 +16,15 @@ button {
 h1 {
   font-size: 3.5rem;
 }
+
 h2 {
   font-size: 3rem;
 }
+
 .black-txt {
   color: #363636;
 }
+
 .white-txt {
   color: white;
 }
@@ -39,13 +37,16 @@ img {
 .navbar {
   background-color: #2c3e50;
 }
+
 .green-bg {
-  background-color: #1abc9c;
+  background-color: rgb(26, 188, 156);
 }
+
 .avatar-pic {
   width: 100%;
   max-width: 250px;
 }
+
 /*-------------------Main-------------------*/
 .star-bar {
   max-width: 400px;
@@ -53,6 +54,7 @@ img {
   align-items: center;
   font-size: 1.5rem;
 }
+
 .bar {
   height: 2px;
   width: 100%;
@@ -60,6 +62,53 @@ img {
   margin-right: 15px;
   margin-left: 15px;
 }
+
 .black-bg {
   background-color: #363636;
+}
+
+/*Contact me*/
+.border-ow {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.border-ow:focus {
+  box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+}
+
+.btn-color-ow {
+  background-color: rgb(26, 188, 156);
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+}
+
+.btn-color-ow:hover {
+  background-color: #1fa78b;
+}
+
+/*-------------------Footer-------------------*/
+.footer-bg {
+  background-color: #3a546d;
+}
+
+.social-icon {
+  height: 45px;
+  width: 45px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 5px;
+  line-height: 45px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  background: rgba(26, 188, 156, 0.25);
+}
+
+.copyright {
+  background-color: #2c3e50;
 }
